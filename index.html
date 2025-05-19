@@ -2,59 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DA 3 GREENS LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DA 3 GREENS</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: #f9f9f9;
-      color: #333;
+      background-color: #f1fef3;
+      color: #1a1a1a;
     }
 
     header {
-      background: linear-gradient(to right, #14532d, #22c55e);
-      padding: 40px 20px;
+      background: linear-gradient(to right, #166534, #22c55e);
       color: white;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-      margin: 0;
-    }
-
-    header p {
-      margin-top: 10px;
-      font-size: 1rem;
-    }
-
-    .contact-button {
-      background-color: gold;
-      color: #111;
-      padding: 10px 20px;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 8px;
-      display: inline-block;
-      margin-top: 20px;
-    }
-
-    section {
       padding: 60px 30px;
       text-align: center;
     }
 
-    h2 {
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #e2e8f0;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #facc15;
+      color: #1a1a1a;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 20px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
       font-size: 2rem;
+      color: #15803d;
       margin-bottom: 20px;
-      color: #14532d;
     }
 
     .products {
       display: flex;
-      justify-content: center;
       flex-wrap: wrap;
+      justify-content: center;
       gap: 20px;
       margin-top: 40px;
     }
@@ -62,22 +64,22 @@
     .products img {
       width: 230px;
       height: 230px;
-      object-fit: cover;
       border-radius: 16px;
-      transform: rotate(-2deg);
+      object-fit: cover;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s;
+      transition: transform 0.3s ease;
+      transform: rotate(-2deg);
     }
 
     .products img:hover {
-      transform: rotate(0deg) scale(1.05);
+      transform: scale(1.05) rotate(0deg);
     }
 
     footer {
-      background: #111;
+      background: #166534;
       color: white;
       text-align: center;
-      padding: 30px 20px;
+      padding: 40px 20px;
       margin-top: 60px;
     }
   </style>
@@ -85,28 +87,43 @@
 <body>
 
 <header>
-  <h1>DA 3 GREENS LLC</h1>
-  <p>Email: admin@da3greens.in.net | Phone: 727-931-5422</p>
-  <a href="mailto:admin@da3greens.in.net" class="contact-button">CONTACT US</a>
+  <h1>DA 3 GREENS</h1>
+  <p>Natural. Clean. Everyday Health.</p>
+  <a href="mailto:admin@da3greens.in.net" class="button">CONTACT US</a>
 </header>
 
 <section>
-  <h2>About Us</h2>
-  <p>DA 3 GREENS LLC is a health-focused company based in Brooklyn, New York. We promote clean nutrition, natural greens, and wellness products.</p>
-  <p>Address: 1610 EAST 102ND ST 3D, BROOKLYN, NY 11236</p>
+  <h2>Our Philosophy</h2>
+  <p>We believe in the power of nature to fuel your body. Our products are built around real greens, real fruits, and real wellness—delivered simply.</p>
+</section>
+
+<section>
+  <h2>Clean Ingredients</h2>
+  <p>Every scoop is packed with nutrient-rich greens, natural enzymes, and energizing blends with zero additives.</p>
 </section>
 
 <section>
   <h2>Our Products</h2>
   <div class="products">
-    <img src="https://leanwithlilly.com/cdn/shop/products/Greens-Mango_Pineapple-FOP2_1c57ef73-327a-4498-8f89-ff8f244649c0_1024x1024.jpg?v=1742901598" alt="Greens Product 1">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRENtP-IlHURuNbLhUA1IYnrKLTG7GxqLsH5w&s" alt="Greens Product 2">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlKDccDUuMapgQ2QA_N2TseDmu-lvUPFMqkQ&s" alt="Greens Product 3">
+    <img src="https://leanwithlilly.com/cdn/shop/products/Greens-Mango_Pineapple-FOP2_1c57ef73-327a-4498-8f89-ff8f244649c0_1024x1024.jpg?v=1742901598" alt="Greens 1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRENtP-IlHURuNbLhUA1IYnrKLTG7GxqLsH5w&s" alt="Greens 2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlKDccDUuMapgQ2QA_N2TseDmu-lvUPFMqkQ&s" alt="Greens 3">
   </div>
 </section>
 
+<section>
+  <h2>Daily Energy</h2>
+  <p>Stay energized and refreshed all day with greens made to boost your system without the crash.</p>
+</section>
+
+<section>
+  <h2>Trusted by Thousands</h2>
+  <p>Our community trusts us to bring wellness closer to home. Your health is our mission.</p>
+</section>
+
 <footer>
-  &copy; 2025 DA 3 GREENS LLC. All rights reserved.
+  <p>Contact: admin@da3greens.in.net | Phone: 727-931-5422</p>
+  <p>&copy; 2025 DA 3 GREENS — All rights reserved.</p>
 </footer>
 
 </body>
